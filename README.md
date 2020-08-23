@@ -175,5 +175,9 @@ docker service logs -f nginx_cluster_nginx1
 ![](https://i.imgur.com/ByHkmC0.png)
 ![](https://i.imgur.com/2B4cC4c.png)
 
-#### 不同Service若集中在同一Worker 
+* APP Service若集中在同一Worker(如上圖的`App2 Service`)，其只能說有`Loading Balance`
 
+* APP Service若集中在不同Worker(如上圖的`App1 Service`)，就真正做到`Fail Over`及`Loading Balance
+
+* 擴增Node方便,請參考[上面寫的Node](#node)
+`
