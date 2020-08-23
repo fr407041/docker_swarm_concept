@@ -7,6 +7,7 @@ Docker Swarm概念
 ### Index
 
 1. [Docker Swarm集合概念](#docker_swarm) 
+2. [Docker Swarm如何運作](#docker_work)
 
 ----
 <a name="docker_swarm"/>
@@ -167,5 +168,12 @@ docker service logs -f nginx_cluster_nginx1
 
 ----
 
+<a name="docker_work"/>
 
+### 2.Docker Swarm如何運作
+
+![](https://i.imgur.com/ByHkmC0.png)
+![](https://i.imgur.com/2B4cC4c.png)
+
+#### 不同Service若集中在同一Worker 
 
