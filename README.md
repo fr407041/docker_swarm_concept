@@ -1,11 +1,12 @@
 Docker Swarm概念
 ====
 
+
+[![hackmd-github-sync-badge](https://hackmd.io/XcvuSEGBSZq7XNcpLE0dQQ/badge)](https://hackmd.io/XcvuSEGBSZq7XNcpLE0dQQ)
+
 ### Index
 
 1. [Docker Swarm集合概念](#docker_swarm) 
-2. [Build docker stack cluster service](#docker_stack)
-
 
 ----
 <a name="docker_swarm"/>
