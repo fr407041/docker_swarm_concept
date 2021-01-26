@@ -39,7 +39,7 @@ docker swarm join-token manager xxx-x-xxx Manager_IP:2377
 docker swarm join-token -q worker
 
 # 將其他Node串接成Worker(將xxx-x-xxx換成上面查詢的Token)
-docker swarm join --token xxx-x-xxx Worker_IP:2377
+docker swarm join --token xxx-x-xxx Manager:2377
 ```
 
 #### Docker Node Command
