@@ -33,7 +33,7 @@ docker swarm init --advertise-addr want_be_manager_IP
 docker swarm join-token -q manager
 
 # 將其他Node串接成Manager(將xxx-x-xxx換成上面查詢的Token)
-docker swarm join-token manager xxx-x-xxx Manager_IP:2377
+docker swarm join --token xxx-x-xxx Manager_IP:2377
 
 # 在Leader Node查詢欲作的Worker Token
 docker swarm join-token -q worker
